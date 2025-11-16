@@ -22,5 +22,10 @@ namespace UserManagementService.Controllers
             })
             .ToArray();
         }
+
+        public String Test()
+        {
+            return "Hello";
+        }
     }
 }
